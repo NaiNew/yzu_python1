@@ -6,7 +6,7 @@ class Point(object):
         return self.x == other.x
 
     def __lt__(self, other):
-        return self.x > other.x
+        return self.x < other.x
 
 if __name__ == '__main__':
     p1 = Point(20)
