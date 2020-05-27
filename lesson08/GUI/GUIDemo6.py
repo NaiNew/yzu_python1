@@ -14,7 +14,7 @@ label = tkinter.Label(win, text='品項：')
 # fruits = ['apple', 'banana', 'mango', 'watermelon']
 fruits = {'apple': 50, 'banana': 60, 'mango': 70, 'watermelon': 80}
 combo = ttk.Combobox(win, values=list(fruits.keys()), state='readonly')
-combo.current(2)
+combo.current(0)
 label2 = tkinter.Label(win, text='甜度：')
 
 radio1 = tkinter.Radiobutton(win, text='正常', value=1.0)
