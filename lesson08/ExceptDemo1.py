@@ -4,5 +4,5 @@ try:
     z = x / y
     print(z)
 
-except:
-    print('有錯誤發生')
+except Exception as e:
+    print('有錯誤發生', e)
